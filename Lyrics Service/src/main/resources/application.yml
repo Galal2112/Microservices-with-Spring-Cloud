@@ -1,0 +1,22 @@
+server:
+  port: 9193
+
+spring:
+  application:
+    name: LYRICS-SERVICE
+  data:
+    mongodb:
+      database: lyricsDB
+      host: localhost
+      port: 27017
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+API_KEY: MUSICMATCH API

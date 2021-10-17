@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:hsqldb:mem:testdb
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.HSQLDialect
+        show_sql: true
